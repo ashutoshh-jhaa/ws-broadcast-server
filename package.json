@@ -1,0 +1,25 @@
+{
+  "name": "ws-raw-implementation",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "client": "live-server client.html"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "nodejs",
+    "realtime",
+    "broadcast",
+    "networking"
+  ],
+  "author": "github.com/ashutoshh-jhaa",
+  "license": "MIT",
+  "description": "Raw WebSocket implementation using the ws library with a broadcast server and browser client demo.",
+  "dependencies": {
+    "ws": "^8.19.0"
+  }
+}
